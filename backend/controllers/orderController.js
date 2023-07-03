@@ -1,7 +1,7 @@
 // Express allows us to make the routes file even cleaner by making another folder called controllers where we can specify what function a particular route does and we can define the them as functions in the controller file
 
 import asyncHandler from '../middleware/asyncHandler.js';
-import Order from '../models/OrderModel.js';
+import Order from '../models/orderModel.js';
 
 // @desc    Create new order
 // @route   POST /api/orders
